@@ -1,0 +1,23 @@
+/* 1439 - 769 */
+@media(max-width: 1001px) {
+    .container {
+        padding-inline: 24px;
+    }
+}
+
+@media(max-width: 801px) {
+    .container {
+        padding: 32px 24px;
+    }
+
+    .mainSection {
+        padding-inline: 16px;
+        flex-direction: column;
+        row-gap: 64px;
+    }
+
+    .formSection,
+    .mapSection {
+        width: 100%;
+    }
+}

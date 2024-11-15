@@ -1,0 +1,29 @@
+/* 480 - 320 */
+@media(max-width: 377px) {
+    .container {
+        padding: 16px 8px;
+    }
+
+    .mainSection {
+        padding-inline: 8px;
+        row-gap: 48px;
+    }
+
+    .formSection {
+        row-gap: 24px;
+    }
+
+    .formTitle {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    form {
+        --formRowGap: 24px;
+    }
+
+    .mapSectionContainer {
+        row-gap: 24px;
+    }
+
+}
